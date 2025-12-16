@@ -5,8 +5,8 @@
   "scope": "/",
   "start_url": "/",
   "name": "SYACOFA",
-  "short_name": "A New way to connect",
-  "description": "Social Media Plartform",
+  "short_name": "SYACOFA",
+  "description": "Social Media Platform",
   "icons": [
     {
       "src": "/icon-192x192.png",
@@ -28,21 +28,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "thumbnail": "",
-  "lib": ".",
-  "keywords": [],
-  "configuration": {},
-  "author": "",
-  "defaultDocument": "",
-  "main": "index.js",
-  "version": "",
-  "dependencies": {},
-  "license": "",
-  "tests": "test/**/*.js",
-  "provides": {},
-  "engines": {},
-  "files": {},
-  "contributors": [],
-  "scripts": {}
+  ]
 }
