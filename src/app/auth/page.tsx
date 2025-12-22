@@ -73,24 +73,28 @@ export default function AuthPage() {
       </h2>
       <form>
         <div>
-          <label htmlFor="email">Email:</label>
-          <input 
-            type="email" 
-            id="email"
-            value={email} 
-            onChange={(e) => setEmail(e.target.value)} 
-            required 
-          />
+          <label>
+            Email:
+            <input 
+              type="email" 
+              name="email"
+              value={email} 
+              onChange={(e) => setEmail(e.target.value)} 
+              required 
+            />
+          </label>
         </div>
         <div style={{ marginTop: '1rem' }}>
-          <label htmlFor="password">Password:</label>
-          <input 
-            type="password" 
-            id="password"
-            value={password} 
-            onChange={(e) => setPassword(e.target.value)} 
-            required 
-          />
+          <label>
+            Password:
+            <input 
+              type="password" 
+              name="password"
+              value={password} 
+              onChange={(e) => setPassword(e.target.value)} 
+              required 
+            />
+          </label>
         </div>
         <div style={{ marginTop: '1.5rem' }}>
           <button type="submit" onClick={handleLogIn}>Log In</button>
